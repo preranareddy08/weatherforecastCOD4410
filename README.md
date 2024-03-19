@@ -15,6 +15,7 @@
   **Description**
 
 - HTML STRUCTURE
+  
 The HTML file (index.html) provides the structure for the Weather App interface. It consists of the following components:
 
 html
@@ -32,6 +33,7 @@ Rationale: HTML provides the basic structure for the application's user interfac
 
 
  -CSS STRUCTURE
+ 
 The CSS file (styles.css) applies styles to elements in the HTML to enhance the visual appeal and usability of the Weather App. Key styling includes:
 .card {
   /* Styles for weather card */
@@ -50,6 +52,7 @@ Rationale: CSS styles are crucial for creating an engaging and visually appealin
 
 
 -JavaScript Functionality
+
   The JavaScript file (script.js) provides the core functionality of the Weather App. Key features include:
 
 let weather = {

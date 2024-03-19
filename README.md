@@ -1,4 +1,5 @@
-**Title CodTech IT Solutions Internship - Task Documentation : Building a weather forecast web development app.
+**Title CodTech IT Solutions Internship **
+     - Task Documentation : Building a weather forecast web development app.
 
 **Introduction**
   This document provides a detailed explaination of the task assigned during the CodTech IT Solutions internship program.The task involves writing a code to implement a weather forecast app.This doucumentation will cover the implementaion details,rationale behind the code structure,and insights into the programming techniques utilized.
@@ -9,8 +10,7 @@
   Intern ID:COD4410
 
 **Implementation**
-   The Weather App is designed to provide users with up-to-date weather information for a specified location. It utilizes HTML, CSS, and JavaScript to create an 
-   interactive and visually appealing user interface.
+   The Weather App is designed to provide users with up-to-date weather information for a specified location. It utilizes HTML, CSS, and JavaScript to create an interactive and visually appealing user interface.
 
   **Description**
 
@@ -18,7 +18,6 @@
 The HTML file (index.html) provides the structure for the Weather App interface. It consists of the following components:
 
 html
-
 <!-- Weather card -->
 <div class="card">
   <!-- Weather information will be displayed here -->
@@ -31,10 +30,9 @@ html
 </div>
 Rationale: HTML provides the basic structure for the application's user interface, defining the elements and layout required for displaying weather information and user interaction.
 
+
+ -CSS STRUCTURE
 The CSS file (styles.css) applies styles to elements in the HTML to enhance the visual appeal and usability of the Weather App. Key styling includes:
-
--CSS STRUCTURE
-
 .card {
   /* Styles for weather card */
 }
@@ -50,9 +48,10 @@ button {
 /* Additional CSS styles for layout, colors, fonts, etc. */
 Rationale: CSS styles are crucial for creating an engaging and visually appealing user interface. They enhance the readability of weather information and improve the overall user experience.
 
--JavaScript Functionality
 
-The JavaScript file (script.js) provides the core functionality of the Weather App. Key features include:
+-JavaScript Functionality
+  The JavaScript file (script.js) provides the core functionality of the Weather App. Key features include:
+
 let weather = {
   apiKey: "aba6ff9d6de967d5eac6fd79114693cc",
   fetchWeather: function(city) {
@@ -95,20 +94,12 @@ document.querySelector(".search-bar").addEventListener("keyup", function(event) 
 weather.fetchWeather("Manipal");
 Implementation Details: The JavaScript file handles the fetching of weather data from the OpenWeatherMap API, displaying the retrieved data, and handling user interactions such as searching for weather information.
 
-5. Implementation Details
-API Integration: The Weather App integrates with the OpenWeatherMap API to fetch weather data and the OpenCageData Geocoder API for reverse geocoding to obtain location information.
-Responsive Design: The application is designed to be responsive, ensuring optimal display and functionality across various devices and screen sizes.
-Error Handling: Error handling mechanisms are implemented to notify users in case of failed API requests or invalid input.
-Rationale: These implementation details ensure that the Weather App delivers accurate and reliable weather information while maintaining a seamless user experience.
+
 
 **Implementation Details**
-
 API Integration: The Weather App integrates with the OpenWeatherMap API to fetch weather data and the OpenCageData Geocoder API for reverse geocoding to obtain location information.
-
 Responsive Design: The application is designed to be responsive, ensuring optimal display and functionality across various devices and screen sizes.
-
 Error Handling: Error handling mechanisms are implemented to notify users in case of failed API requests or invalid input.
-
 Rationale: These implementation details ensure that the Weather App delivers accurate and reliable weather information while maintaining a seamless user experience.
 
 **Conclusion**

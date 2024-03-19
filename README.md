@@ -98,8 +98,11 @@ Implementation Details: The JavaScript file handles the fetching of weather data
 
 **Implementation Details**
 API Integration: The Weather App integrates with the OpenWeatherMap API to fetch weather data and the OpenCageData Geocoder API for reverse geocoding to obtain location information.
+
 Responsive Design: The application is designed to be responsive, ensuring optimal display and functionality across various devices and screen sizes.
+
 Error Handling: Error handling mechanisms are implemented to notify users in case of failed API requests or invalid input.
+
 Rationale: These implementation details ensure that the Weather App delivers accurate and reliable weather information while maintaining a seamless user experience.
 
 **Conclusion**
